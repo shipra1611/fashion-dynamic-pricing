@@ -1,0 +1,4 @@
+model,n_train,n_test,R2_log_units,R2_units,MAE_units
+Naive (last observed week),0,203600,0.6239,0.4583,6.1658
+XGBoost A: price + article + age (no past sales),670822,203600,0.4331,0.1682,9.3435
+XGBoost B: A + past sales,670822,203600,0.7332,0.5328,6.0887

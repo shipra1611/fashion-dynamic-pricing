@@ -1,0 +1,6 @@
+spec,elasticity,se,ci_lo,ci_hi,rows,articles
+"A. Poisson FE, zeros filled, week FE only",-0.1341,0.0253,-0.1836,-0.0845,1241797,27703
+B. + age bins (MAIN),-0.2483,0.0232,-0.2937,-0.2028,1241797,27703
+B by channel 1 (store),0.3,0.0294,0.2424,0.3576,464091,12928
+B by channel 2 (online),-0.6014,0.0297,-0.6596,-0.5433,777706,23283
+B on observed weeks only (no zero fill),-0.4242,0.0197,-0.4628,-0.3856,913086,27703

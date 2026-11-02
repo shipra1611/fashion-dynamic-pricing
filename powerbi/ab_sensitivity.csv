@@ -1,0 +1,7 @@
+true_elasticity,true_revenue_effect_pct,true_gross_profit_effect_pct,mean_cuped_estimate_pct,share_significant_cuped_pct
+0.5x fitted,5.05,16.62,4.54,9.0
+1.0x fitted,3.95,14.57,3.45,6.67
+1.5x fitted,2.6,12.21,2.13,5.0
+2.0x fitted,1.63,10.02,1.18,4.67
+1.0x fitted -0.5,0.78,9.96,0.31,4.67
+1.0x fitted +0.5,6.47,18.44,5.96,10.0
