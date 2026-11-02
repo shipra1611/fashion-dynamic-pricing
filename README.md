@@ -68,10 +68,3 @@ Revenue objective, +-15% around base price, never below unit cost. If a category
 - If true elasticities are 2x the fitted values, the true revenue effect shrinks to +1.6% (gross profit +10%); see `ab_sensitivity.csv`.
 - Gross profit depends heavily on the assumed 50% cost ratio.
 
-## Power BI
-No `.pbix` is included. Load `powerbi/*.csv`. Suggested pages: (1) category overview from `weekly_category_trends` (units, revenue, price index by week); (2) elasticity by category with CIs and elastic/inelastic flag; (3) price recommendations by category and action; (4) A/B test readout from `ab_test_results`, `ab_rerandomisation_summary` and `ab_power_analysis`, labeled as simulated.
-
-## Interview notes
-- Say the A/B test is a simulated design study. Lead with the power analysis: it is the real, defensible output.
-- Know why naive log-OLS gives -0.04 and why store elasticities are positive.
-- R2 0.73 (log units) includes past sales; the price-only model is 0.43.
